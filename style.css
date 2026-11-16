@@ -1,1 +1,6 @@
-@import "tailwindcss";
+.hero-bg {
+    background: 
+        /* This linear-gradient creates the fade from transparent to your theme color (#c3d6ec) at the bottom */
+        linear-gradient(to bottom, rgba(195, 214, 236, 0) 50%, rgba(195, 214, 236, 1) 100%), 
+        /* Your hero image */
+        url('herobg.png') no-repeat center center/cover; }
